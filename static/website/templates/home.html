@@ -1,0 +1,299 @@
+{% load static %}
+<!-- Navigation -->
+{% block home %} 
+<div id="home" data="home"></div>
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+        <p>International conference on Python for education and scientific computing</p>
+        <img alt="" class="img-responsive center-block img-logo" src="{% static 'website/bootstrap-css/assets/images/backgrounds/SciPy_logo.png' %}"><br>
+        <center>
+        <div style="background-color: rgb(0, 68, 170, 0.4); border-radius: 10px; padding: 10px; width: 75%">
+         <h1>SciPy India 2020</h1>
+            <h2>19 &amp; 20 December, 2020 / IIT Bombay</h2>
+            </div>
+            </center>
+            <br>
+            <a data-toggle="modal" data-target="#registermdl" data-scroll class="btn btn-white">Register now</a>
+        </div>
+        
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h3 class="section-title">About Us</h3>
+
+                    <p class="text-justify">SciPy India is the annual gathering of Pythonistas providing opportunities to spread the use of the Python programming language in the Scientific Computing community in India.</p>
+                    <p class="text-justify"> 
+
+It provides a unique opportunity to discuss about the latest trends on Scientific Computing in the industry. You can present your ideas, research work done in this area during the conference.  One of the goals of the conference is to combine education, engineering, and science with computing through the medium of Python.</p>
+
+                </div><!-- /.col-sm-6 -->
+                <div class="col-sm-6">
+                     <h3 class="section-title multiple-title" align="center">News and Updates</h3>
+                    <a class="twitter-timeline" data-width="500" data-height="380" href="https://twitter.com/SciPyIndia?ref_src=twsrc%5Etfw">Tweets by SciPyIndia</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+                </div><!-- /.col-sm-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+
+    <section id="facts" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>2020<br>December 19 &amp; 20</h3>
+                
+                </div>
+                <div class="col-sm-4">
+
+                    <i class="ion-ios-location"></i>
+                    <h3>Online</h3>
+
+                </div>
+                <!-- <div class="col-sm-3">
+
+                    <i class="ion-pricetags"></i>
+                    <h3>Over 300<br>Tickets</h3>
+                
+                </div> -->
+                <div class="col-sm-4">
+                
+                    <i class="ion-speakerphone"></i>
+                    <h3>Speakers on the way</h3>
+
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Speakers</h3>         
+                </div>
+            </div>
+            <center>
+            <h1>TBD</h1>
+            <!-- <div class="row">
+                <div class="col-md-4">
+                    <div class="speaker">
+                    <h4>Keynote Speaker</h4>
+                        <figure>
+                            <img alt="" class="img-responsive center-block img-rounded" style="width:179px;height:198px;" src="{% static 'website/bootstrap-css/assets/images/speakers/keynote_speaker.jpg' %}" data-toggle="modal" data-target="#speaker1">
+                        </figure>
+                        <h4>Michael Droettboom</h4>
+                        <ul class="social-block">
+                            <li><a href="http://droettboom.com/" target="_blank"><i class="fa fa-globe"></i></a></li>
+                            <li><a href="http://linkedin.com/in/mdboom" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li> 
+                            <li><a href="https://github.com/mdboom" target="_blank"><i class="ion-social-github"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                    <p class="text-justify">Michael Droettboom is a Staff Data Engineer at Mozilla. There, he is working with a team that collects data on a massive scale that, unlike most of the big tech companies, respects user agency, privacy and transparency.  Prior to that, he has a history of applying machine learning and data science to such diverse as fields as neuroscience, astronomy, medieval manuscripts and 19th century American sheet music.  He contributes to many open source projects, was the lead developer of matplotlib, and the original author of airspeed velocity and Pyodide.</p>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                    <h4>Invited Speaker</h4>
+                        <figure>
+                            <img alt="" class="img-responsive center-block img-rounded" style="width:179px;height:198px;" src="{% static 'website/bootstrap-css/assets/images/speakers/invited_speaker.jpg' %}" data-toggle="modal" data-target="#speaker1">
+                        </figure>
+                        <h4>Asokan Pichai</h4>
+                        <ul class="social-block">
+                            <li><a href="https://twitter.com/asokanpichai?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://in.linkedin.com/in/pasokan" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li> 
+                            <li><a href="https://github.com/pasokan" target="_blank"><i class="ion-social-github"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                    <p class="text-justify">Asokan Pichai heads Learning and Development and teaches Problem Solving Techniques and Program Design. He has more than twenty-five years of experience in hands-on software development, training and senior level management. He has held leadership positions such as CEO of MinVesta, CTO of Ma Foi, Chief Trainer at Virtusa, and Technical Director of Brilliant's Computer Centre.</p>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                    <h4>Invited Speaker</h4>
+                        <figure>
+                            <img alt="" class="img-responsive center-block img-rounded" style="width:179px;height:198px;" src="{% static 'website/bootstrap-css/assets/images/speakers/ajith.png' %}" data-toggle="modal" data-target="#speaker1">
+                        </figure>
+                        <h4>Dr. Ajith Kumar</h4>
+                        <ul class="social-block">
+                            <li><a href="http://expeyes.in/" target="_blank"><i class="fa fa-globe"></i></a></li>
+                            <li><a href="https://github.com/expeyes" target="_blank"><i class="ion-social-github"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                    <p class="text-justify">Dr. Ajith Kumar works mainly in the area of development of instrumentation for particle accelerators and associated experiments, including radio-frequency accelerating structures, control and data acquisition systems, digital and radio frequency electronics modules. He initiated the Phoenix / expEYES project. ExpEYES is currently the cheapest educational system to teach science. </p>
+                </div>
+                </div>
+            </div> -->
+            </center>
+        </div>
+    </section>
+
+    <!-- <section id="cod" class="section cod">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Code Of Conduct</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                     <p class="text-justify">We appreciate your participation in SciPy 2020. We want you to have an enjoyable and enriching experience in the conference. For this all the attendees are required to conform to the following Code of Conduct. Organisers will ensure that it is enforced throughout the event.
+                     <div id="demo" class="collapse">
+                        <div class="card-text">
+                           <p>SciPy India is dedicated to providing a harassment-free conference experience for everyone, regardless of age, gender, sexual orientation, physical appearance, disability, race, religion or employment.
+                           </p>
+                           <p>Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. We have zero tolerance on harassment of conference participants in any form, including, but not limited to the activities mentioned here.
+                           </p>
+                           <p>Participants asked to stop any harassing behavior are expected to comply immediately.
+                           </p>
+                           <p>All communication should be appropriate for a professional audience, including people from many different backgrounds. Sexual language or imagery is inappropriate for all aspects of the conference, including talks. Remember that sexist, racist or any other form of exclusionary or offensive jokes or excessive public swearing are not appropriate at any venue of SciPy India.
+                           </p>
+                           <p>Do not insult or put down attendees or engage in any action that violates the open, welcoming and sharing spirit of the conference. Be kind and sensitive to the people around you when you are attending the conference, and avoid any kind of offensive or degrading behavior.
+                           </p>
+                           <p>
+                              <b>If a participant engages in behavior that violates this code of conduct, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
+                              </b>
+                           </p>
+                           <p>Thank you for helping to make SciPy India a welcoming, friendly event for all.
+                           </p>
+                           <p>
+                              <b>Contact Information:
+                              </b>
+                           </p>
+                           <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff. Conference staff will be wearing "SciPy India: Organiser" badges.
+                           </p>
+                           <p>Conference staff will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
+                           </p>
+                           <p>
+                              <b>License:
+                              </b>
+                           </p>
+                           <p>This Code of Conduct was forked from PSF Code of Conduct by Python Software Foundation which is under a Creative Commons Attribution 3.0 Unported License.
+                           </p>
+                           <p>SciPy India Conference Code of Conduct is licensed under a Creative Commons Attribution 3.0 Unported License.
+                           </p>
+                        </div>
+                     </div>
+                     <center>
+                        <button type="button" class="btn btn-black" data-toggle="collapse" data-target="#demo">
+                            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </center>
+            </div>
+    </section> -->
+
+    <!-- <section id="venue" class="section venue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3 class="section-title">Venue</h3>
+                </div>
+            </div>
+            <p></p>
+        </div>
+    </section> -->
+    
+    <section id="organiser" class="section organiser">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Organiser &amp; Sponsor</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="https://fossee.in"class="organiser-box organiser-box-1" target="_blank"></a>
+                    <p class="text-justify">The Annual SciPy India conference is organised by the team members of FOSSEE project which is part of the National Mission on Education through ICT with the thrust area being Adaptation and deployment of open source simulation packages equivalent to proprietary software, funded by Ministry of Education(MoE), based at the Indian Institute of Technology Bombay (IITB). </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- <section id="poster" class="section poster">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Poster</h3>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-8">
+                    <p class="text-justify">
+                        We request you to share the event details through this poster with faculty members, students and others who might be interested. You may print the poster (native size - A4) and display on the notice boards.
+                        Download the poster by clicking on the image.  
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="{% static 'website/bootstrap-css/assets/images/selected-poster.png'%}" target="_blank"><img class="img-responsive center-block img-logo" src="{% static 'website/bootstrap-css/assets/images/SciPy2020_thmb.png' %}"></a>
+                </div>
+            </div>
+    </section> -->
+
+    <section id="photos" class="section photos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Memories of <span style="text-transform: none;">SciPy India</span></h3>
+                </div>
+            </div>
+            <div class="row">
+            <center>
+                <div class="col-md-12">
+                    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/138717104@N02/albums/72157710765977263" title="SciPy2020">
+                    <img src="https://live.staticflickr.com/65535/48705266592_0e70bb04a4_z.jpg" width="80%" height="360" alt="SciPy2020"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                </div>
+            </center>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us" class="section contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Contact us</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                <p>For any query, reach us at <a style="color:black;" href="mailto:scipy@fossee.in"> scipy[at]fossee[dot]in</p>
+                    <!-- <dl class="alt">
+                            <dt>Phone</dt>
+                            <dd><i class="fa fa-phone" aria-hidden="true"></i> (+91) 22 25764133</dd>
+                            <dd><i class="fa fa-calendar" aria-hidden="true"></i> Monday - Friday</dd>
+                            <dd><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00 AM - 6:00 PM</dd>
+                            <dt>Email</dt>
+                            <dd>
+                                <i class="fa fa-envelope" aria-hidden="true"></i> <a style="color:black;" href="mailto:scipy@fossee.in"> scipy[at]fossee[dot]in
+                                </a>
+                            </dd>
+                        </dl> -->
+                </div>
+                </div>
+            </div>
+    </section>
+
+<div class="modal fade" id="announce_cfp" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+          <p class="text-justify">Call for Papers will open soon</p>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

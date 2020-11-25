@@ -1,9 +1,9 @@
-DB_NAME_DEFAULT = 'SciPy2020'
+DB_NAME_DEFAULT = 'dbname'
 DB_USER_DEFAULT = 'root'
 DB_PASS_DEFAULT = 'root'
 DB_HOST_DEFAULT = 'localhost'
 DB_PORT_DEFAULT = ''
-SECRET_KEY_VAL = '(-ch5+l^7w4zd3*f*qjg_pg#)=l3=g-&8+wfecl&a01a%kg)up'
+SECRET_KEY_VAL = ''
 ########################################
 GOOGLE_KEY = 'GOOGLE_KEY'
 GOOGLE_SECRET = 'GOOGLE_SECRET'

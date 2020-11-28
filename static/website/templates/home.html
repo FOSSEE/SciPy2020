@@ -79,26 +79,31 @@ It provides a unique opportunity to discuss about the latest trends on Scientifi
                 </div>
             </div>
             <center>
-            <h1>TBD</h1>
-            <!-- <div class="row">
-                <div class="col-md-4">
+            
+             <div class="row">
+                <div class="col-md-12">
                     <div class="speaker">
                     <h4>Keynote Speaker</h4>
                         <figure>
                             <img alt="" class="img-responsive center-block img-rounded" style="width:179px;height:198px;" src="{% static 'website/bootstrap-css/assets/images/speakers/keynote_speaker.jpg' %}" data-toggle="modal" data-target="#speaker1">
                         </figure>
-                        <h4>Michael Droettboom</h4>
-                        <ul class="social-block">
+                        <h4>Sergio Rey</h4>
+                        <p>Professor, School of Public Policy, <br>
+University of California, Riverside
+</p>
+                        <!-- <ul class="social-block">
                             <li><a href="http://droettboom.com/" target="_blank"><i class="fa fa-globe"></i></a></li>
                             <li><a href="http://linkedin.com/in/mdboom" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li> 
                             <li><a href="https://github.com/mdboom" target="_blank"><i class="ion-social-github"></i></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <div class="col-md-12">
-                    <p class="text-justify">Michael Droettboom is a Staff Data Engineer at Mozilla. There, he is working with a team that collects data on a massive scale that, unlike most of the big tech companies, respects user agency, privacy and transparency.  Prior to that, he has a history of applying machine learning and data science to such diverse as fields as neuroscience, astronomy, medieval manuscripts and 19th century American sheet music.  He contributes to many open source projects, was the lead developer of matplotlib, and the original author of airspeed velocity and Pyodide.</p>
+                    <p class="text-justify">He is the founding director of the Center for Geospatial Sciences at the University of California, Riverside.
+His research interests are in geographic information science, spatial inequality dynamics, regional science, spatial econometrics, and spatial data science. This research significantly benefits from, and contributes to, open source software and the practice of open science. 
+</p>
                 </div>
                 </div>
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="speaker">
                     <h4>Invited Speaker</h4>
                         <figure>
@@ -133,6 +138,36 @@ It provides a unique opportunity to discuss about the latest trends on Scientifi
                 </div>
             </div> -->
             </center>
+        </div>
+    </section>
+     <section id="important_dates" class="section important_dates">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Important dates</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Call for Papers opens on: {{ cfp_dates.start_date| date:"d F Y" }}</h4>
+                </div>
+                <div class="col-md-6">
+                    <h4>Call for Papers closes on: {{ cfp_dates.end_date| date:"d F Y" }}</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contribution" class="section contribution">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Call for Papers</h3>
+                    <p>We invite you to submit proposals for talks or workshops to be presented at SciPy 2020. The time duration for talks is 15 minutes and for workshops is 2 to 3 hours. There will be two parallel tracks for the workshops this year. One track is meant for beginners and the other is for advanced users. </p>
+                    <center><a href="{% url 'website:cfp' %}" class="btn btn-white">
+                    Submit</a></center>
+                </div>
+            </div>
         </div>
     </section>
 

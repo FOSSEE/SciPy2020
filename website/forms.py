@@ -36,6 +36,7 @@ ws_duration = (
 )
 abs_duration = (
     ('15', '15'),
+    ('30', '30')
 )
 
 
@@ -153,7 +154,7 @@ class ProposalForm(forms.ModelForm):
     proposal_type = forms.CharField(
         widget=forms.HiddenInput(), label='', initial='ABSTRACT', required=False)
 
-    duration = forms.ChoiceField(widget=forms.Select(attrs={'readonly': True}), choices=abs_duration, required=True)
+    duration = forms.ChoiceField(choices=abs_duration, required=True)
 
     tags = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Tags'}),
                            required=False,

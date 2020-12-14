@@ -5,6 +5,7 @@
 
 <section id="submitcfw" class="section submitcfw">
     <div class="container">
+    {% if cfp_dates.receive_proposals %}
         <p>
             <center>
                 <h2>Submit Workshop Proposal</h2>
@@ -110,6 +111,11 @@
                     <a href="{% url 'website:cfp' %}" class="btn btn-info" role="button">Back</a>
                 </center>
             </form>
+             {% else %}
+          <center>
+          <h2>We no longer accept proposals</h2>
+          </center>
+                {% endif %}
         </div>
         
     </section>

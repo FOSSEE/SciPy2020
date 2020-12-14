@@ -10,6 +10,8 @@
 <section id="view_proposal" class="section view_proposal">
     <div class="container">
         <br>
+        {% if cfp_dates.receive_proposals %}
+        
             <center>
                 <h1>Submit Proposal</h1>
             </center>
@@ -108,6 +110,12 @@
                     </center>
                 </form> 
                 </div>
+
+        {% else %}
+          <center>
+          <h2>We no longer accept proposals</h2>
+          </center>
+                {% endif %}
             </div>
         </section>
 {% endblock %}

@@ -280,6 +280,21 @@ His research interests are in geographic information science, spatial inequality
             </div>
     </section> -->
 
+    {% if tentative_schedule.display_schedule_table %}       
+        {{ tentative_schedule.schedule_table | safe }}
+    {% else %}
+    <section id="schedule" class="section schedule">
+        <div class="container">
+            <div class="row">
+            <h3 class="section-title">Tentative Schedule</h3>
+            <div class="col-md-12">
+                <p><strong>Schedule will be announced soon</strong></p>
+            </div>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
     <!-- <section id="venue" class="section venue">
         <div class="container">
             <div class="row">

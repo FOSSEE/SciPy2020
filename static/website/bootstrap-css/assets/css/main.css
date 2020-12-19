@@ -317,7 +317,7 @@ background-color: #0044aa;
 .navbar-custom {
   border: 0;
   margin: 0;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   padding-bottom: 10px;
   background-color: #000;
   -webkit-transition: all 0.2s linear 0s;
@@ -435,10 +435,10 @@ background-color: #0044aa;
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
   }
     .site-header .intro .img-logo{
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
   .site-branding {
